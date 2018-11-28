@@ -8,7 +8,9 @@
 
 import UIKit
 
-class TableViewController : UITableViewController  {
+class ViewController : UIViewController,UITableViewDelegate,UITableViewDataSource{
+    
+    @IBOutlet weak var TableView: UITableView!
     
     /// 画像のファイル名
     let imageNames = ["バルセロナ.jpg", "ナポリ.jpg", "リアルマドリード.jpg", "ガンバ大阪.jpg"]
@@ -28,25 +30,19 @@ class TableViewController : UITableViewController  {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-//        //これ何？
-//        tableView.delegate = self
-//        tableView.dataSource = self
-//
     }
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
     /// セルの個数を指定するデリゲートメソッド（必須）
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return imageNames.count
     }
     
     /// セルに値を設定するデータソースメソッド（必須）
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         //？
         let cell = tableView.dequeueReusableCell(withIdentifier: "MyCell")  as! CustomCell
         
@@ -55,10 +51,6 @@ class TableViewController : UITableViewController  {
         cell.teame_name.text = imageTitles[indexPath.row]
         cell.reaage.text = imageDescriptions[indexPath.row]
         
-        return UITableViewCell()
-        
+        return cell
     }
-    
-
-    
 }

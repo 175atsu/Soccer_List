@@ -7,12 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		203988F3219D717800AD4CD6 /* バルセロナ.png in Resources */ = {isa = PBXBuildFile; fileRef = 203988EF219D717800AD4CD6 /* バルセロナ.png */; };
-		203988F4219D717800AD4CD6 /* ナポリ.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 203988F0219D717800AD4CD6 /* ナポリ.jpeg */; };
-		203988F5219D717800AD4CD6 /* リアルマドリード.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 203988F1219D717800AD4CD6 /* リアルマドリード.jpg */; };
-		203988F6219D717800AD4CD6 /* ガンバ大阪.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 203988F2219D717800AD4CD6 /* ガンバ大阪.jpeg */; };
 		20A2E1D121915F2300070D20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A2E1D021915F2300070D20 /* AppDelegate.swift */; };
-		20A2E1D321915F2300070D20 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A2E1D221915F2300070D20 /* TableViewController.swift */; };
+		20A2E1D321915F2300070D20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A2E1D221915F2300070D20 /* ViewController.swift */; };
 		20A2E1D621915F2300070D20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20A2E1D421915F2300070D20 /* Main.storyboard */; };
 		20A2E1D821915F2800070D20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20A2E1D721915F2800070D20 /* Assets.xcassets */; };
 		20A2E1DB21915F2800070D20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20A2E1D921915F2800070D20 /* LaunchScreen.storyboard */; };
@@ -21,13 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		203988EF219D717800AD4CD6 /* バルセロナ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "バルセロナ.png"; sourceTree = "<group>"; };
-		203988F0219D717800AD4CD6 /* ナポリ.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ナポリ.jpeg"; sourceTree = "<group>"; };
-		203988F1219D717800AD4CD6 /* リアルマドリード.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "リアルマドリード.jpg"; sourceTree = "<group>"; };
-		203988F2219D717800AD4CD6 /* ガンバ大阪.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ガンバ大阪.jpeg"; sourceTree = "<group>"; };
 		20A2E1CD21915F2300070D20 /* soccer_list.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = soccer_list.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A2E1D021915F2300070D20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		20A2E1D221915F2300070D20 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		20A2E1D221915F2300070D20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		20A2E1D521915F2300070D20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20A2E1D721915F2800070D20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20A2E1DA21915F2800070D20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -67,17 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				20A2E1D021915F2300070D20 /* AppDelegate.swift */,
-				20A2E1D221915F2300070D20 /* TableViewController.swift */,
+				20A2E1D221915F2300070D20 /* ViewController.swift */,
 				20A2E1D421915F2300070D20 /* Main.storyboard */,
 				20A2E1E42195CB0900070D20 /* CustomCell.swift */,
 				20A2E1E22191819000070D20 /* teamlist.swift */,
 				20A2E1D721915F2800070D20 /* Assets.xcassets */,
 				20A2E1D921915F2800070D20 /* LaunchScreen.storyboard */,
 				20A2E1DC21915F2800070D20 /* Info.plist */,
-				203988F2219D717800AD4CD6 /* ガンバ大阪.jpeg */,
-				203988F0219D717800AD4CD6 /* ナポリ.jpeg */,
-				203988EF219D717800AD4CD6 /* バルセロナ.png */,
-				203988F1219D717800AD4CD6 /* リアルマドリード.jpg */,
 			);
 			path = soccer_list;
 			sourceTree = "<group>";
@@ -140,12 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				203988F6219D717800AD4CD6 /* ガンバ大阪.jpeg in Resources */,
-				203988F5219D717800AD4CD6 /* リアルマドリード.jpg in Resources */,
 				20A2E1DB21915F2800070D20 /* LaunchScreen.storyboard in Resources */,
-				203988F4219D717800AD4CD6 /* ナポリ.jpeg in Resources */,
 				20A2E1D821915F2800070D20 /* Assets.xcassets in Resources */,
-				203988F3219D717800AD4CD6 /* バルセロナ.png in Resources */,
 				20A2E1D621915F2300070D20 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20A2E1D321915F2300070D20 /* TableViewController.swift in Sources */,
+				20A2E1D321915F2300070D20 /* ViewController.swift in Sources */,
 				20A2E1D121915F2300070D20 /* AppDelegate.swift in Sources */,
 				20A2E1E52195CB0900070D20 /* CustomCell.swift in Sources */,
 				20A2E1E32191819000070D20 /* teamlist.swift in Sources */,
